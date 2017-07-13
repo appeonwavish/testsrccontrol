@@ -69,7 +69,7 @@ BOOL CtestsrccontrolApp::InitInstance()
 	// TODO: You should modify this string to be something appropriate
 	// such as the name of your company or organization
 	SetRegistryKey(_T("Local AppWizard-Generated Applications"));
-
+	MessageBox(NULL, L"test", L"title", MB_OK);
 	CtestsrccontrolDlg dlg;
 	m_pMainWnd = &dlg;
 	INT_PTR nResponse = dlg.DoModal();
