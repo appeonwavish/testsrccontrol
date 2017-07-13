@@ -24,6 +24,7 @@ public:
 // Implementation
 protected:
 	HICON m_hIcon;
+	int num_;
 
 	// Generated message map functions
 	virtual BOOL OnInitDialog();
