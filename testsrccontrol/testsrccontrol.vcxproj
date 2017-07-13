@@ -203,7 +203,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="testsrccontrol.cpp" />
-    <ClCompile Include="testsrccontrolDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="testsrccontrol.rc" />
